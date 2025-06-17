@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rehistration form</title>
+</head>
+<body>
+<div>
+<h2><strong> Registration Form</strong></h2>
+<strong></strong> Personal Information</strong>
+</div>
+<div>
+<form>
+<label><strong>Last Name:</strong></label><br>
+<input type="text" name="last_name" placeholder="Enter your Last Name" required><br>
+<label><strong> First name:</strong> </label><br>
+<input type="text" name="first_name" placeholder="Enter your First Name" required><br>
+<label><strong> Middle initial:</strong> </label><br>
+<input type="text" name="middle_name" placeholder="Enter your Middle Name" required><br>
+<label><strong>Address: </strong> </label><br>
+<textarea name="txt_add"></textarea><br>
+<label><strong>Birthday:</strong> </label><br>
+<input type="date" name="txt_bday" required><br>
+<label><strong>Password:</strong> </label><br>
+<input type="password" name="password" placeholder="Enter your Password" minlength="3" maxlength="16" required><br>
+<label><strong>Gender:</strong> </label><br>
+<input type="radio" name="gender" value="male" required>Male
+<input type="radio" name="gender" value="female" required>Female<br>
+<label><strong>Contact Number:</strong> </label>
+<input type="number" name="cn" placeholder="Enter your Contact Number" maxlength="11" required><br>
+<h4>Education Attainment</h4>
+<label><strong>Elementary:</strong> </label><br>
+<input type="text" name="elementary" required><br>
+<label><strong>Junior Highschool:</strong> </label><br>
+<input type="text" name="juniorhigh" required><br>
+<label><strong>Senior Highschool:</strong> </label><br>
+<input type="text" name="seniorhigh" required><br>
+<label><strong>Strand/Track:</strong> </label><br>
+<select>
+<option value="ict"><strong>STEM</strong> </option>
+<option value="abm"><strong>ABM</strong></option>
+<option value="humss"><strong>HUMSS</strong></option>
+</select><br>
+<label><strong>College:</strong> </label><br>
+<input type="text" name="college" required><br>
+<label><strong>Program:</strong> </label><br>
+<input type="text" name="program" required><br>
+<label><strong>Requirements Submitted:</strong> </label><br>
+<input type="checkbox" name="tor" value="TOR" required><strong>Transcript of Records</strong><br>
+<input type="checkbox" name="bc" value="Birth_Cert" required><strong>Birth Certificate</strong><br>
+<input type="checkbox" name="ms" value="med_res" required><strong>Medical Result</strong><br>
+<input type="checkbox" name="form137" value="form_137" required><strong>Form 137</strong><br>
+<label><strong>Upload Scanned Copy:</strong> </label>
+<input type="file" name="fname" value="upload_req" required><br>
+
+ <input type="submit"  value=  "Save"  >
+ <input type="button" value="Reset">
+
+</form>
+</div>
+</body>
+</html> 

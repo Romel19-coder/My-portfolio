@@ -1,0 +1,73 @@
+body {
+  font-family: serif;
+  font-size: 20px;
+  background-color: #080a9e;
+  text-align: center;
+  padding: 50px;
+  color: rgb(122, 122, 122);
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  border: 4px groove black;
+}
+
+.profile-img {
+  
+  border: 2px solid black;
+  width: 150px;
+  height: 160px;
+}
+
+.title {
+  color: rgb(122, 122, 122);
+  font-size: 25px;
+
+}
+
+a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: black;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+a:hover {
+  background-color: #cedd35;
+}
+
+h1 {
+  color: black;
+  font-size: 25px;
+}
+.idnum{
+  margin-top: 0;
+  font-size: medium;
+  color: darkblue;
+}
+.course{
+  margin-top: 0;
+  font-size: medium;
+  color: darkblue;
+}
+.title{
+  margin-top: 0;
+  font-size: medium;
+  color: darkblue;
+}
+.schl{
+  margin-top: 0;
+  font-size: larger;
+  color: darkblue;
+}
+.course{
+  margin-top: 0;
+  font-size: 20px;
+}

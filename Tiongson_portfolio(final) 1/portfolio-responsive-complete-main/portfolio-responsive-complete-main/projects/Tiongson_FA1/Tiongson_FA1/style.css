@@ -1,0 +1,290 @@
+
+body {
+
+    background-color: #f9f9f9;
+
+    color: #333;
+
+    line-height: 1.6;
+
+   }
+
+   .container {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 20px;
+
+   }
+
+   .top-bar {
+
+    background-color: #222;
+
+    color: #fff;
+
+    padding: 15px 0;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+   }
+
+   .logo {
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+   }
+
+   .rider {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    background-image: url('MX2.jpg');
+
+    color: #080808;
+
+    padding: 60px 20px;
+
+    gap: 40px;
+
+    border-radius: 8px;
+
+   }
+
+   .Rider-left {
+
+    flex: 1;
+
+    min-width: 300px;
+
+   }
+
+   .Rider-left h1 {
+
+    font-size: 32px;
+
+    margin-bottom: 15px;
+
+   }
+
+   .Rider-left p {
+
+    font-size: 18px;
+
+    margin-bottom: 20px;
+
+   }
+
+   .Mx-link {
+
+    color: #f2f6f8;
+
+    text-decoration: underline;
+
+   }
+
+   .Rider-right {
+
+    flex: 1;
+
+    min-width: 300px;
+
+   }
+
+   .signup-box {
+
+    background-color: #babdbdbb;
+
+    color: #171718;
+
+    padding: 40px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+   }
+
+   .signup-box h2 {
+
+    margin-bottom: 10px;
+
+   }
+
+   .google-btn {
+
+    background-color: #02234d;
+
+    color: rgb(231, 228, 228);
+
+    border: none;
+
+    padding: 12px;
+
+    width: 100%;
+
+    font-weight: bold;
+
+    margin-bottom: 12px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+   }
+
+   .divider {
+
+    text-align: center;
+
+    margin: 12px 0;
+
+    font-size: 14px;
+
+    color: #161515;
+
+   }
+
+   form input {
+
+    display: block;
+
+    width: 100%;
+
+    margin-bottom: 10px;
+
+    padding: 10px;
+
+    border: 1px solid #555454;
+
+    border-radius: 4px;
+
+   }
+
+   .name-fields {
+
+    display: flex;
+
+    gap: 10px;
+
+   }
+
+   form small {
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    color: #550505;
+
+    font-size: 13px;
+
+   }
+
+   form button {
+
+    background-color: #02234d;
+
+    color: white;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    width: 100%;
+
+    font-weight: bold;
+
+   }
+
+   .characters {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 30px;
+
+    margin: 50px 0;
+
+   }
+
+   .Rider {
+
+    text-align: center;
+
+    font-size: larger;
+
+    background-color: #3b3a3a;
+
+    padding: 30px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+
+   }
+
+   .Rider-icon {
+
+    width: 70px;
+
+    height: 70px;
+
+    object-fit: cover;
+
+    border-radius: 60%;
+
+    margin-bottom: 15px;
+
+    border: 2px solid #d3d2d2;
+
+   }
+
+   .footer {
+
+    background-color: #1c2227;
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+    color: #0a0a0a;
+
+    font-size: 16px;
+
+   }
+
+   .footer h1 {
+
+    margin-bottom: 10px;
+
+   }
+
+
+.hidden {
+
+    display: none;
+
+   }
+
+   #success-msg {
+
+    margin-top: 10px;
+
+    color: rgb(244, 250, 244);
+
+    font-weight: bold;
+
+   }
+ 
